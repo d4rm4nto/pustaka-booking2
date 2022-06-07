@@ -38,6 +38,7 @@ class Laporan extends CI_Controller
         $orientation = 'landscape'; //tipe format kertas potrait atau landscape
         $html = $this->output->get_output();
 
+
         $dompdf->set_paper($paper_size, $orientation);
         $dompdf->load_html($html);
         $dompdf->render();
