@@ -4,6 +4,7 @@ header("Content-Disposition: Attachment; filename=$title.xls");
 header("Pragma: no-cache");
 header("Expires:0");
 ?>
+
 <h3>
     <center>Laporan Data Buku Perputakaan Online</center>
 </h3>
